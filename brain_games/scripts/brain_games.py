@@ -1,5 +1,5 @@
 from brain_games.cli import welcome_user
-from brain_even import
+from brain_even import is_even()
 
 
 def main():
