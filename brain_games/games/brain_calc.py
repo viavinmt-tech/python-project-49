@@ -1,9 +1,11 @@
 import random
 
-description = 'What is the result of the expression?'
+DESCRIPTION = 'What is the result of the expression?'
+
+
 def question_and_answer():
-    a = random.randint(1, 100)
-    b = random.randint(1, 100)
+    a = random.randint(1, 50)
+    b = random.randint(1, 10)
     e = random.choice(['+', '-', '*'])
     match e:
         case '+':
@@ -12,7 +14,7 @@ def question_and_answer():
             answer = a - b
         case '*':
             answer = a * b
-        question = f'{a} {e} {b}'
+    question = f'{a} {e} {b}'
     return question, str(answer)
 
 
