@@ -1,6 +1,6 @@
 import random
 
-DESCRIPTION = 'Find the greatest common divisor of given numbers.'
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
 def question_and_answer():
