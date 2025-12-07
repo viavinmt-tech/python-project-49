@@ -8,6 +8,8 @@ def question_and_answer():
     question = f'{x}'
     if x == 2:
         answer = 'yes'
+    if x == 1:
+        answer = 'no'
     count = 0
     a = 1
     while x > a:
