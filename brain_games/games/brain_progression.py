@@ -14,8 +14,8 @@ def progression(a, index, step):
 def question_and_answer():
     a = random.randint(1, 50) # NOSONAR
     index = random.randint(0, 9) # NOSONAR
-    step = random.randint(1, 10)
-    p = progression(a, index, step) # NOSONAR
+    step = random.randint(1, 10) # NOSONAR
+    p = progression(a, index, step) 
     answer = p[index]
     p_ind = p.copy()
     p_ind[index] = '..'
