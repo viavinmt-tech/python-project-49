@@ -2,6 +2,7 @@
 *.egg-info/
 dist/
 *.pyc
+*.pyo
 .coverage
 coverage.xml
 *_cache/
@@ -9,4 +10,6 @@ coverage.xml
 *demo_script.sh
 __pycache__/
 .venv/
+venv/
+env/
 .ruff_cache/
