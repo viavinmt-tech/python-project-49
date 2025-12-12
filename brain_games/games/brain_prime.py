@@ -4,7 +4,7 @@ DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def question_and_answer():
-    x = random.randint(1, 50) # NOSONAR
+    x = random.randint(1, 50)# NOSONAR
     question = f'{x}'
     if x == 2:
         answer = 'yes'
