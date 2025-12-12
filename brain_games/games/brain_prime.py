@@ -6,13 +6,12 @@ DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 def question_and_answer():
     x = random.randint(1, 50)  # NOSONAR
     question = f'{x}'
-    return question
     if x == 2:
         answer = 'yes'
-        return answer
+        return question, answer
     if x == 1:
         answer = 'no'
-        return answer
+        return question, answer
     count = 0
     a = 1
     while x > a:
@@ -24,10 +23,10 @@ def question_and_answer():
             count += 1
     if count >= 2:
         answer = 'no'
-        return answer
+        return question, answer
     else:
         answer = 'yes'
-        return answer
+        return question, answer
 
 
 
