@@ -3,7 +3,7 @@ def run_game(question_and_answer, DESCRIPTION):
     
     print('Welcome to the Brain Games!')
     name = welcome_user()
-    print(f'Hello, {name}!\n')
+    print(f'Hello, {name}!')
     print(DESCRIPTION)
     count = 0
     NEED_COUNT = 3
